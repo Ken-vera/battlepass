@@ -1,0 +1,15 @@
+name: Battlepass
+version: '${project.version}'
+main: me.kenvera.battlepass.Main
+api-version: 1.19
+authors: [ Kenvera ]
+description: Battlepass plugin
+commands:
+  battlepass:
+    description: Battlepass
+    usage: /<command>
+    aliases:
+      - bp
+  pv:
+    description: Private Vault
+    usage: /<command>
